@@ -47,10 +47,10 @@
   <remove-project name="android_vendor_custom" />
   <project path="vendor/custom" name="kwoktopus/android_vendor_custom" remote="github" revision="n" />
 
-  <project name="AOSP-bacon/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="pure-nexus" />
+  <project name="rohitporoli/android_device_oneplus_onyx" path="device/oneplus/onyx" remote="github" revision="pn" />
   <project name="AOSP-bacon/android_device_qcom_common" path="device/qcom/common" remote="github" revision="nougat" />
   <project name="AOSP-bacon/android_external_sony_boringssl-compat" path="external/boringssl-compat" remote="github" revision="cm-13.0" />
-  <project name="AOSP-bacon/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="nougat" />
+  <project name="SlimRoms/kernel_oneplus_onyx" path="kernel/oneplus/onyx" remote="github" revision="n7.0" />
   <project name="AOSP-bacon/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="cm-13.0" />
   <project name="AOSP-bacon/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="nougat" clone-depth="1" />
 </manifest>
