@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <remote  name="cm"
+          fetch="https://github.com/CyanogenMod/" />
+
+ <remote  name="du"
+          fetch="https://github.com/DirtyUnicorns/"
+          review="gerrit.dirtyunicorns.com" />
+
+  <project name="Tesla-M-Devices/device_oneplus_onyx" path="device/oneplus/onyx" remote="github" revision="n7.0" />
+  <project name="Tesla-M-Devices/device_oppo_common" path="device/oppo/common" remote="github" revision="n7.0" />
+  <project name="GZR-Kernels/kernel_oneplus_onyx" path="kernel/oneplus/onyx" remote="github" revision="n" />
+  <project name="BigTopKrazies/vendor_oneplus" path="vendor/oneplus" remote="github" revision="n7.0" />
+  <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-14.0" />
+  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.0" />
+  <project name="CyanogenMod/android_external_connectivity" path="external/connectivity" remote="github" revision="cm-14.0" />
+  <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-14.0" />
+  <project name="CyanogenMod/android_system_qcom" path="android/system/qcom" remote="github" revision="cm-14.0" />
+  <project name="DirtyUnicorns/android_hardware_ril" path="hardware/ril-caf" remote="github" revision="n-caf" />
+  <project name="CyanogenMod/android_external_ant-wireless_ant_service" path="external/ant-wireless/ant/service" remote="github" revision="cm-14.0" />
+  <project name="CyanogenMod/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="cm-14.0"/>
+  <project name="CyanogenMod/android_external_ant-wireless_ant_native" path="external/ant-wireless/ant/native" remote="github" revision="cm-14.0" />
+  <project name="Cyanogenmod/android_external_libnetfilter_conntrack" path="external/libnetfilter/conntrack" remote="github" revision="cm-14.0" />
+  <project name="Cyanogenmod/android_external_libnfnetlink" path="external/libnfnetlink" remote="github" revision="cm-14.0" />
+
+<!--Repos to remove-->
+
+  <remove-project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="du" revision="n-caf" />
+<!--Repos to replace-->
+  <project name="CyanogenMod/android_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="github" revision="cm-14.0-caf" />
+  
+</manifest>
